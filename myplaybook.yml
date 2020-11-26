@@ -1,0 +1,7 @@
+---
+- name: Adding use
+  hosts: all
+  tasks:
+    - name: adding user mike
+        name: mike
+        state: present
