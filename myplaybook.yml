@@ -3,5 +3,6 @@
   hosts: all
   tasks:
     - name: adding user mike
+      user:
         name: mike
         state: present
